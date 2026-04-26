@@ -1,4 +1,5 @@
 ## Demo
+Python CLI tool for web scraping and exporting structured data to Excel
 
 Example command:
 python main.py --url "..." --pages 3 --output result.xlsx
