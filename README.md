@@ -1,17 +1,22 @@
-# Python Web Scraper
+## Demo
 
-## Description
-This project is a Python-based web scraper that collects product data from a website and exports it to an Excel file.
+Example command:
+python main.py --url "..." --pages 3 --output result.xlsx
 
-## Features
-- Parses product data (name, price, rating, URL)
-- Supports pagination
-- Cleans and processes data
-- Exports results to Excel
+## Output Example
 
-## Requirements
-- Python 3.x
+- 60+ products collected
+- Clean Excel file ready for analysis
 
-## Installation
-```bash
-pip install -r requirements.txt
+## Use Cases
+
+- E-commerce price monitoring
+- Competitor analysis
+- Data collection for ML
+
+## Technologies
+
+- Python
+- requests
+- BeautifulSoup
+- pandas
